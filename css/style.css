@@ -1,0 +1,160 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);
+@import url(//cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.0.0/bootstrap-social.min.css);
+
+.pull-down
+{
+  margin-top: 40px;
+}
+.logo-image
+{
+  padding: 1px;
+  /*
+  padding-top: 6px;
+  padding-right: 15px;
+  padding-bottom: 15px;*/
+
+}
+
+.jumbotron
+{
+  /*background-image: url('../image/sun.jpg');*/
+  color: white;
+  min-height: 350px;
+  margin-bottom: 8px;
+
+}
+
+@media (max-width: 768px)
+{
+  .jumbotron
+  {
+    color: white;
+    min-height: inherit;;
+    margin-bottom: 8px;
+
+  }
+}
+
+@media (max-width: 1070px)
+{
+  .row
+  {
+    width: auto !important;
+
+  }
+}
+
+.nails
+{
+  width: 1000px;
+  margin: auto;
+
+}
+.row:after
+{
+  clear: none;
+}
+.row
+{
+  width: 1000px;
+  margin: auto;
+}
+
+.socialpng
+{
+  max-width: 50px;
+  float: right;
+  padding-right: 5px;
+}
+.psocial
+{
+  width: 70%;
+}
+.remi-sidebar
+{
+  border-width: 15px;
+  border-color: whitesmoke;
+  border-radius: 10px;
+  border-style: solid;
+  height: 700px;
+}
+
+.remi-footer
+{
+  background-color: rgba(14, 22, 27, 0.79);
+  height: auto;
+  border-color: #ADCAE2;
+  border-top-style: solid;
+  border-top-right-radius: 3px;
+  border-width: 1px;
+  margin-top: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.bigtitle
+{
+  color: #337ab7;
+}
+.smalltitle
+{
+  color: white;
+}
+.smalltitle2
+{
+  color: black;
+}
+.smalltitle23
+{
+  color: black;
+  font-size: 18px;
+}
+.mainpost
+{
+  -webkit-box-shadow: 12px 0px 20px -9px rgba(51,122,183,0.66);
+  -moz-box-shadow: 12px 0px 20px -9px rgba(51,122,183,0.66);
+  box-shadow: 12px 0px 20px -9px rgba(51,122,183,0.66);
+}
+.capi
+{
+  text-transform: uppercase;;
+}
+
+.banner-cont
+{
+  color: #337ab7;
+  font-size: 30px;
+  margin-left: 10px;
+  font-family: serif;
+}
+
+.foot-aut
+{
+  text-align: center;
+  color: #337ab7;
+  border-top: black;
+  border-top-style: solid;
+  margin-top: 15px;
+  border-top-width: 1px;
+  padding-top: 10px;
+}
+.pagetitleR
+{
+  border-color: black;
+  border-style: solid;
+  margin-bottom: 20px;
+  border-width: 5px;
+  background-color: #337ab7;
+  color: white;
+  border-radius: 10px;
+}
+
+
+/*
+<style type="text/css">
+body
+{
+background-image:url('<?php echo $url ?>');
+}
+</style>
+*/
